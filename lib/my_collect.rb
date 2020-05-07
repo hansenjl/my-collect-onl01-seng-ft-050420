@@ -12,11 +12,7 @@ def my_collect(array)
   # return our new array 
 end
 
-def metho2(array)
-  array 
-end
 
-my_collect([a,2,3,4])
 
 # TEST IS CALLING 
 # my_collect(languages){ |language| language.upcase }
