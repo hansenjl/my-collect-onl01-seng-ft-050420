@@ -5,7 +5,7 @@ def my_collect(array)
   idx = 0  
   new_array = []
   while idx < array.length 
-    new_array << yield(array[idx]) 
+    new_array << yield(array[idx], id + 5) 
     idx += 1 
   end
   new_array
@@ -15,6 +15,6 @@ end
 
 
 # TEST IS CALLING 
-# my_collect(languages){ |language| language.upcase }
+# my_collect(languages){ |language, id| language.upcase }
 
 # my_collect(students){ |student| student.split(" ").first }
