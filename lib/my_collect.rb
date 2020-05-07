@@ -4,7 +4,7 @@
 def my_collect(array)
   idx = 0  
   while idx < array.length 
-    array[idx].upcase   
+    yield(array[idx]) 
     idx += 1 
   end
 end
