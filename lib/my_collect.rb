@@ -8,3 +8,6 @@ def my_collect(array)
     idx += 1 
   end
 end
+
+# TEST IS CALLING 
+# my_collect(languages){ |language| language.upcase }
