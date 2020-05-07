@@ -2,5 +2,8 @@
 
 
 def my_collect(array)
-  
+  idx = 0  
+  while idx < array.length 
+    idx += 1 
+  end
 end
