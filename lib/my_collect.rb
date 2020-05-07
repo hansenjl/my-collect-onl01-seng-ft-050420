@@ -11,3 +11,5 @@ end
 
 # TEST IS CALLING 
 # my_collect(languages){ |language| language.upcase }
+
+# my_collect(students){ |student| student.split(" ").first }
